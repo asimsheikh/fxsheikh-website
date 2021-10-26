@@ -20,6 +20,76 @@
 
       body {
         font-family: 'Montserrat', sans-serif;
+        background-color: black;
+        color: white;
+      }
+
+      nav {
+        font-size: 1.5rem;
+        padding: 2rem;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .item {
+        padding: 1rem;
+        margin: 1rem;
+      }
+
+      #hero {
+        height: 70vh;
+        background-image: url('redpython_snake.png');
+        background-position: left -120% bottom 0%;
+        background-repeat: no-repeat;
+      }
+
+      .hero-text {
+        padding-left: 5rem;
+        width: 50%;
+        background-color: rgb(0, 0, 0, 0.2);
+      }
+
+      .hero-text h1 {
+        padding-top: 20vh;
+        font-size: 4rem;
+      }
+
+      .hero-text h3 {
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        color: lightgrey;
+        font-weight: 400;
+      }
+
+      #testimonials {
+        margin: 0rem 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #testimonials h1 {
+        font-size: 2rem;
+      }
+
+      .testimonial-list {
+        margin-top: 2rem;
+        display: flex;
+        align-items: flex-end;
+      }
+
+      .testimonial {
+        flex: 1;
+        padding: 1rem 2rem;
+      }
+
+      .testimonial-name {
+        font-weight: 600;
+        padding: 10px 0px;
       }
 
       .logo {
@@ -32,7 +102,54 @@
     <div class="container">
       <!-- <header class="item">header</header> -->
       <nav class="item"><span class="logo">FX</span>Sheikh</nav>
-      <section class="item" id="hero"></section>
+      <section class="item" id="hero">
+        <div class="hero-text">
+          <h1>We bring your business online</h1>
+          <h3>
+            From concept, to design to development. We are a team of Sydney
+            based technologists that bring small to medium businesses into the
+            digital world.
+          </h3>
+        </div>
+      </section>
+      <section class="item" id="testimonials">
+        <h1>Our customers &#129505; our work</h1>
+        <div class="testimonial-list">
+          <div class="testimonial">
+            <div class="testimonial-text">
+              <p>
+                Welcome to Top Ryde City Ladies & Gentleman. The place where
+                this legendary barber is cutting and fading, while also
+                perfecting the art of cutting hair right by TOWN. 5/5 stars
+              </p>
+            </div>
+            <div class="testimonial-name">Tyler Skeen</div>
+            <div class="testimonial-photo"></div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-text">
+              <p>
+                I have been coming to Sam for just over 10 years. He is a
+                gentleman and an absolute perfectionist ... a perfect haircut
+                every time. I highly recommend Top Ryde Barber Shop
+              </p>
+            </div>
+            <div class="testimonial-name">Matthew L</div>
+            <div class="testimonial-photo"></div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-text">
+              <p>
+                Welcome to Top Ryde City Ladies & Gentleman. The place where
+                this legendary barber is cutting and fading, while also
+                perfecting the art of cutting hair right by TOWN. 5/5 stars
+              </p>
+            </div>
+            <div class="testimonial-name">Tyler Skeen</div>
+            <div class="testimonial-photo"></div>
+          </div>
+        </div>
+      </section>
       <footer class="item">
         <div class="social-logos">
           <div style="width: 2rem" class="instagram-logo">
