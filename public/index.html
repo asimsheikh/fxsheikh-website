@@ -14,13 +14,16 @@
   <body>
     <div class="container font-sans mx-auto">
       <section class="bg-green-200 flex items-center gap-10 h-16 px-6" id="nav">
-        <div class="nav-item text-xl flex-1">
-          <span class="font-extrabold italic">FX</span>Sheikh
+        <div class="nav-item text-xl flex-1 font-bold">
+          <span
+            class="font-extrabold italic bg-black text-white p-2 rounded-full"
+            >FX</span
+          >Sheikh
         </div>
-        <div class="nav-item"><a href="#">Testimonials</a></div>
-        <div class="nav-item"><a href="#">Cast Study</a></div>
+        <div class="nav-item"><a href="#testimonial">Testimonials</a></div>
+        <div class="nav-item"><a href="#case-study">Case Study</a></div>
         <div class="nav-item"><a href="#">Our Approach</a></div>
-        <div class="nav-item"><a href="#">About Us</a></div>
+        <div class="nav-item"><a href="#about-us">About Us</a></div>
       </section>
       <section class="bg-yellow-100 p-10" id="hero">
         <div class="hero-panel flex">
@@ -38,12 +41,14 @@
             </div>
           </div>
           <div class="hero-right flex-1">
-            <div class="bg-red-400 h-96 w-80">Image Placeholder</div>
+            <div class="bg-red-400 h-full w-80 text-center">
+              Image Placeholder
+            </div>
           </div>
         </div>
       </section>
-      <section class="bg-purple-300 p-10" id="testimonail">
-        <h3 class="text-4xl text-left pb-5">
+      <section class="bg-purple-300 p-10" id="testimonial">
+        <h3 class="font-bold text-4xl text-left pb-5">
           Our customers &#129505; our work
         </h3>
         <div class="testimonial-list flex gap-10">
@@ -58,20 +63,20 @@
           </div>
         </div>
       </section>
-      <section class="bg-gray-600" id="case-study">
-        <h3>Our Work</h3>
-        <div class="case-study-list h-80">
-          <div class="case-study bg-red-200">
+      <section class="bg-green-500 p-10" id="case-study">
+        <h3 class="font-bold text-4xl text-left pb-5">Our Work</h3>
+        <div class="case-study-list flex flex-col items-center gap-10">
+          <div class="case-study h-20 w-3/4 bg-red-200">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             veniam nemo expedita iusto similique debitis culpa quasi animi
             possimus earum.
           </div>
-          <div class="case-study bg-red-200">
+          <div class="case-study h-20 w-3/4 bg-red-200">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto eum
             reiciendis possimus facilis tenetur veritatis suscipit at nemo fuga
             a.
           </div>
-          <div class="case-study bg-red-200">
+          <div class="case-study h-20 w-3/4 bg-red-200">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
             libero aspernatur ipsam, doloremque ab dolores animi fugit atque?
             Veritatis, suscipit.
@@ -81,7 +86,7 @@
       <section class="bg-yellow-800 text-white h-40" id="about-us">
         <p>Our story</p>
       </section>
-      <footer class="bg-black">
+      <footer class="bg-black p-10">
         <div class="flex justify-around social-logos">
           <div class="w-8 instagram-logo">
             <svg
